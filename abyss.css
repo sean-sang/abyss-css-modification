@@ -2258,22 +2258,18 @@ div[data-role="controlgroup"] a[data-role="button"]:last-child {
     animation: abyss-section-fade-up 0.7s var(--abyss-ease) both 0.45s;
 }
 
-/* Do not affect homepage/library backdrops */
 .withSectionTabs .backdropImage {
     filter: none !important;
 }
 
-/* Make ONLY the item page much darker */
 body:has(#itemDetailPage) .backdropImage {
-    filter: blur(8px) saturate(95%) contrast(105%) brightness(8%) !important;
+    filter: blur(6px) saturate(90%) contrast(100%) brightness(5%) !important;
 }
 
-/* Add a much stronger dark overlay only on item pages */
 #itemDetailPage .itemBackdrop::after {
-    background: rgba(0, 0, 0, 0.72) !important;
+    background: rgba(0, 0, 0, 0.82) !important;
 }
 
-/* Make the detail ribbon darker too */
 #itemDetailPage .detailRibbon {
-    background: rgba(0, 0, 0, 0.45) !important;
+    background: rgba(0, 0, 0, 0.6) !important;
 }
