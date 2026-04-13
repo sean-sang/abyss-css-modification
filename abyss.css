@@ -2258,13 +2258,15 @@ div[data-role="controlgroup"] a[data-role="button"]:last-child {
     animation: abyss-section-fade-up 0.7s var(--abyss-ease) both 0.45s;
 }
 
-/* Sharper item page backdrop */
-.withSectionTabs .backdropImage,
-body:has(#itemDetailPage) .backdropImage {
-    filter: none !important;
+/* Item page only: softer, darker backdrop without touching homepage */
+.withSectionTabs .backdropImage {
+    filter: unset !important;
 }
 
-/* Reduce the dark veil over the backdrop */
-.itemBackdrop::after {
-    background: rgba(0, 0, 0, 0.18) !important;
+body:has(#itemDetailPage) .backdropImage {
+    filter: blur(10px) saturate(108%) contrast(108%) brightness(18%) !important;
+}
+
+#itemDetailPage .itemBackdrop::after {
+    background: rgba(0, 0, 0, 0.38) !important;
 }
