@@ -1961,25 +1961,15 @@ div[data-role="controlgroup"] a[data-role="button"]:last-child {
 }
 
 @media (min-aspect-ratio: 1.98/1) {
-    .detailRibbon            { padding-left: 23rem !important; }
-    .detailPagePrimaryContent { padding-left: 23rem !important; }
-    .detailPageContent        { padding-left: 23rem !important; }
+    .detailRibbon             { padding-left: 29rem !important; }
+    .detailPagePrimaryContent { padding-left: 32rem !important; }
+    .detailPageContent        { padding-left: 32rem !important; }
 }
 
 @media (min-aspect-ratio: 2.7/1) {
-
-
-    .detailRibbon {
-        padding-left: 23.45vw !important;
-    }
-
-    .detailPagePrimaryContent {
-        padding-left: 23.45vw !important;
-    }
-
-    .detailPageContent {
-        padding-left: 23.45vw !important;
-    }
+    .detailRibbon             { padding-left: 29rem !important; }
+    .detailPagePrimaryContent { padding-left: 32rem !important; }
+    .detailPageContent        { padding-left: 32rem !important; }
 }
 
 /* Backdrop filter support */
