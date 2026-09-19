@@ -1848,7 +1848,7 @@ div[data-role="controlgroup"] a[data-role="button"]:last-child {
 
 .layout-desktop .detailPagePrimaryContent,
 .layout-desktop .detailPageContent {
-    padding-left: 5rem !important;
+    padding-left: 11rem !important;
 }
 
 /* Title + ratings hug the left of the bar */
@@ -1857,6 +1857,11 @@ div[data-role="controlgroup"] a[data-role="button"]:last-child {
     text-align: left !important;
     align-items: flex-start !important;
     margin-left: 1.5rem !important;
+    margin-right: auto !important;
+}
+
+.layout-desktop .detailRibbon .infoWrapper > * {
+    margin-left: 0 !important;
     margin-right: auto !important;
 }
 
