@@ -1827,11 +1827,14 @@ div[data-role="controlgroup"] a[data-role="button"]:last-child {
     display: block;
 }
 
-/* Desktop layout — poster stays in flow (Jellyfin 12 markup) */
-.layout-desktop .detailImageContainer .card,
+/* Desktop layout — poster follows scroll but stays in flow */
+.layout-desktop .detailImageContainer .card {
+    position: sticky !important;
+    top: 6rem !important;
+}
+
 .layout-mobile .detailImageContainer .card {
     position: static !important;
-    top: auto !important;
 }
 
 .layout-mobile :not(.sectionTitleContainer-cards)>.sectionTitle-cards {
