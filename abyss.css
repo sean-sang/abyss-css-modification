@@ -1827,14 +1827,18 @@ div[data-role="controlgroup"] a[data-role="button"]:last-child {
     display: block;
 }
 
-/* Desktop layout — poster follows scroll but stays in flow */
-.layout-desktop .detailImageContainer .card {
-    position: sticky !important;
-    top: 6rem !important;
+/* Detail poster column (Jellyfin 12 markup) */
+.layout-desktop .detailImageContainer {
+    width: 20rem !important;
+    max-width: 22vw !important;
+    flex: 0 0 auto !important;
 }
 
+.layout-desktop .detailImageContainer .card,
 .layout-mobile .detailImageContainer .card {
+    width: 100% !important;
     position: static !important;
+    top: auto !important;
 }
 
 .layout-mobile :not(.sectionTitleContainer-cards)>.sectionTitle-cards {
