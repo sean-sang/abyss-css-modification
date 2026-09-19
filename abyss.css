@@ -1848,7 +1848,7 @@ div[data-role="controlgroup"] a[data-role="button"]:last-child {
 
 .layout-desktop .detailPagePrimaryContent,
 .layout-desktop .detailPageContent {
-    padding-left: 11rem !important;
+    padding-left: 35rem !important;
 }
 
 /* Title + ratings hug the left of the bar */
