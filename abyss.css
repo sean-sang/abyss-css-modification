@@ -1831,6 +1831,7 @@ div[data-role="controlgroup"] a[data-role="button"]:last-child {
 .layout-desktop .detailImageContainer {
     width: 20rem !important;
     max-width: 22vw !important;
+    margin-left: 1.5rem !important;
     flex: 0 0 auto !important;
 }
 
@@ -1960,19 +1961,9 @@ div[data-role="controlgroup"] a[data-role="button"]:last-child {
 }
 
 @media (min-aspect-ratio: 1.98/1) {
-
-
-    .detailRibbon {
-        padding-left: 28.45vw !important;
-    }
-
-    .detailPagePrimaryContent {
-        padding-left: 28.45vw !important;
-    }
-
-    .detailPageContent {
-        padding-left: 28.45vw !important;
-    }
+    .detailRibbon            { padding-left: 23rem !important; }
+    .detailPagePrimaryContent { padding-left: 23rem !important; }
+    .detailPageContent        { padding-left: 23rem !important; }
 }
 
 @media (min-aspect-ratio: 2.7/1) {
