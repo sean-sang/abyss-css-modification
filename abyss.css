@@ -1829,26 +1829,26 @@ div[data-role="controlgroup"] a[data-role="button"]:last-child {
 
 /* Detail poster column (Jellyfin 12 markup) */
 .layout-desktop .detailImageContainer {
-    width: 26rem !important;
-    max-width: 28vw !important;
+    width: 30rem !important;
+    max-width: 30vw !important;
     margin-left: 1.5rem !important;
     flex: 0 0 auto !important;
-    overflow: visible !important;
 }
 
-.layout-desktop .detailImageContainer .card {
-    width: 100% !important;
-    position: static !important;
-    top: auto !important;
-    transform: scale(1.15);
-    transform-origin: top left;
-    z-index: 3;
-}
-
+.layout-desktop .detailImageContainer .card,
 .layout-mobile .detailImageContainer .card {
     width: 100% !important;
     position: static !important;
     top: auto !important;
+}
+
+.layout-desktop .detailRibbon {
+    padding-left: 0 !important;
+}
+
+.layout-desktop .detailPagePrimaryContent,
+.layout-desktop .detailPageContent {
+    padding-left: 2.5rem !important;
 }
 
 .layout-mobile :not(.sectionTitleContainer-cards)>.sectionTitle-cards {
