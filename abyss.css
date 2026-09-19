@@ -1848,7 +1848,21 @@ div[data-role="controlgroup"] a[data-role="button"]:last-child {
 
 .layout-desktop .detailPagePrimaryContent,
 .layout-desktop .detailPageContent {
-    padding-left: 2.5rem !important;
+    padding-left: 5rem !important;
+}
+
+/* Title + ratings hug the left of the bar */
+.layout-desktop .detailRibbon .infoWrapper {
+    flex: 0 1 auto !important;
+    text-align: left !important;
+    align-items: flex-start !important;
+    margin-left: 1.5rem !important;
+}
+
+.layout-desktop .detailRibbon .nameContainer,
+.layout-desktop .detailRibbon .itemMiscInfo {
+    justify-content: flex-start !important;
+    text-align: left !important;
 }
 
 .layout-mobile :not(.sectionTitleContainer-cards)>.sectionTitle-cards {
